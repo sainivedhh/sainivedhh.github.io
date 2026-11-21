@@ -3796,6 +3796,8 @@
      */
     const arena = document.getElementById("universe-arena");
 
+    arena.replaceChildren();
+
     projects.forEach((proj, idx) => {
       const card = document.createElement("div");
       card.className = "project-card";
